@@ -1,0 +1,48 @@
+.TutorSB{
+    text-align: center;
+    height: 100vh;
+    width: 200px;
+    background-color: #2f4050;
+    padding: 0;
+    margin: 0;
+}
+
+.TutorSBList{
+    height: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.TutorSBList .row{
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid black; */
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.TutorSBList .row:hover{
+    cursor: pointer;
+    background-color: gray;
+    /* border-radius: 50px; */
+}
+
+.TutorSBList #active{
+    background-color: peru;
+    border-radius: 50px;
+}
+.row #icon{
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+
+.row #title{
+    flex: 90%;
+}
